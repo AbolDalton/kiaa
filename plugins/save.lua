@@ -1,9 +1,9 @@
 local function run(msg)
-if msg.text == "ابول" then
+if msg.text == "کیا" then
   return "با باباییم چیکار داری؟"
 end
-if msg.text == "مریم" then
-  return "با مامانیم چیکار داری؟"
+if msg.text == "یلدا" then
+  return "باباییمو تنها گذاشت رفت سراغ عشقش"
 end
 end
 
@@ -12,8 +12,8 @@ return {
   usage = "chat with robot",
   patterns = {
    
-    "^ابول$",
-    "^مریم$"
+    "^کیا$",
+    "^یلدا$"
     }, 
   run = run,
 
